@@ -1,0 +1,132 @@
+/* @theme aquatan */
+
+@import "default";
+
+@font-face {
+    font-family: "NotoSansJP";
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: local("Noto Sans JP"),
+        url("../font/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+    font-family: "NotoSansJP", sans-serif;
+    font-weight: 300;
+}
+
+section{
+    width: 1024px;
+    height: 768px;
+}
+
+img[src*='#left']{
+    display: block;
+    margin: 0 auto 0 0;
+}
+
+img[src*='#center']{
+    display: block;
+    margin:0 auto;
+}
+
+img[src*='#right']{
+    display: block;
+    margin: 0 0 0 auto;
+}
+
+section::after{
+    content: url(./img/aquatan_gray_icon.png)'SEL@KIT 'attr(data-marpit-pagination)
+}
+
+section.top{
+    background: #3f455c;
+    align-items: center;
+    justify-content: center;
+    color: #ececec;
+}
+
+section.top h1{
+    color: #ececec;
+    text-align: center;
+    font-size: 300%;
+    font-weight: 600;
+}
+
+section.top h2 {
+    position: absolute;
+    height :35%;
+    width: 100%;
+    color: black;
+    text-align: center;
+    background: #ececec;
+    padding-left: 7%;
+    padding-right: 7%;
+    bottom: 0%;
+    font-weight: 400;
+}
+
+section.title_dark{
+    background: #3f455c;
+    text-align: center;
+}
+
+section.title_dark h1{
+    color: #ececec;
+    font-size: 350%;
+}
+
+section.title_light{
+    background: #ececec;
+    text-align: center;
+}
+
+section.title_light h1{
+    color: black;
+    font-size: 350%;
+}
+
+section.normal{
+    background: #ececec;
+    align-items: left;
+    justify-content: left;
+    color: black;
+    font-size: 32px;
+    padding-top:15%;
+}
+
+section.normal h1{
+    background: #3f455c;
+    color: #ececec;
+    width: 120%;
+    height: 15%;
+    position: absolute;
+    top: 0%;
+    left: -2%;
+    padding-left: 7%;
+    padding-bottom: 0%;
+    line-height: 230%;
+    font-weight: 600;
+}
+
+section.normal ul>li{
+    list-style-type: none;
+}
+
+section.normal ul>li::before{
+    content:"◯ ";
+}
+
+section.normal ul>li>ul>li::before{
+    content:"● ";
+}
+
+section.normal ul>li>ul>li>ul>li::before{
+    content:"◆ ";
+}
+
+section.normal ol>li{
+    list-style-type: decimal;
+}
+
