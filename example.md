@@ -29,6 +29,7 @@ _class: top
 
 1. VS Codeの拡張機能でMarp for VS Codeを追加する
 1. マークダウンファイル(.md)を作成する
+2. プレビュー表示をする
 
 <div style="font-size:100px;margin:15% auto">
 以上
