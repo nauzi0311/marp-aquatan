@@ -10,7 +10,7 @@ _class: top
 -->
 
 # Marpの使い方
-## t-tanimoto@そふらぼ
+## Nauzi@そふらぼ
 
 ---
 <!--
