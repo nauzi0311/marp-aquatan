@@ -12,6 +12,11 @@ _class: top
 # Marpの使い方
 ## t-tanimoto@そふらぼ
 
+---
+<!--
+_class: title_light
+-->
+# .keyとか.pptxとかやめません？<br>って啖呵切った者です。
 
 ---
 
