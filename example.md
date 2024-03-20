@@ -292,3 +292,4 @@ _class : title_dark
 - Marpのテーマ作ったよ
 - 使いづらいところもあるから、とりあえずの資料程度に作ってね
 - Sassとか使えば、もっと便利になるかも
+- git : https://github.com/nauzi0311/marp-aquatan.git
