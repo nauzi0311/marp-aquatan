@@ -37,7 +37,7 @@ img[src*='#right']{
 }
 
 section::after{
-    content: url(./img/aquatan_gray_icon.png)'SEL@KIT 'attr(data-marpit-pagination)
+    content: url(./img/aquatan_gray_icon.png)'あくあたん工房 'attr(data-marpit-pagination)
 }
 
 section.top{
